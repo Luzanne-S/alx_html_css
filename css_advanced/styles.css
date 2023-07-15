@@ -1,0 +1,307 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500&display=swap");
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+/* Header */
+
+header {
+  background-image: url(images/Object.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: -0.5rem;
+  padding-bottom: 5%;
+}
+
+#header-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  margin: 0;
+}
+.nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.nav-item a:hover {
+  color: #c271ff;
+}
+li.nav-item {
+  display: inline;
+  margin: 30px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+/* header-banner */
+
+.header-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  color: #fff;
+  font-size: 105px;
+  padding-top: 2%;
+  letter-spacing: 0.2cm;
+}
+
+.header-banner ul {
+  list-style: none;
+  margin-top: -5%;
+}
+.header-banner li {
+  display: inline;
+  margin: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+.header-banner button {
+  background-color: #c271ff;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  margin-top: 2%;
+}
+.header-banner button:hover {
+  background-color: #8e4dc0;
+}
+
+/* header-professionals */
+
+.header-professionals {
+  margin-top: 7%;
+}
+
+.header-professionals h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  letter-spacing: 0.1cm;
+  margin-bottom: 6%;
+}
+.header-professionals b {
+  color: #c271ff;
+}
+
+.professionals-row {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+.prof-div {
+  width: 30%;
+  color: #fff;
+  text-align: center;
+}
+.prof-div img {
+  border-radius: 50%;
+}
+.prof-div i {
+  width: 150px;
+  margin: auto;
+}
+.header-prof-info {
+  line-height: 5mm;
+}
+/* testimonial */
+#testimonial {
+  background-color: #c271ff;
+  margin: -3.5rem -0.5rem 0;
+  height: 50vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+}
+
+.testimonial-img,
+.testimonial-quote {
+  margin-top: 6%;
+}
+.testimonial-img {
+  margin-left: 10%;
+}
+.testimonial-img img {
+  border-radius: 50%;
+}
+.testimonial-quote blockquote {
+  width: 65%;
+}
+.testimonial-names {
+  margin-left: 5%;
+}
+
+/* popular */
+
+#popular {
+  padding-bottom: 5%;
+}
+#popular h2 {
+  text-align: center;
+  margin: 7% 0 7%;
+}
+#popular b {
+  color: #c271ff;
+}
+.popular-div .img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.popular-div .img2 {
+  position: absolute;
+  top: 1700px;
+  left: 250px;
+}
+.popular-div .img3 {
+  position: absolute;
+  top: 1700px;
+  left: 550px;
+}
+.popular-div .img4 {
+  position: absolute;
+  top: 1700px;
+  left: 850px;
+}
+.popular-div .img5 {
+  position: absolute;
+  top: 1700px;
+  left: 1160px;
+}
+.popular-main-div {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: auto;
+}
+
+.popular-div p {
+  color: #898686c0;
+}
+.rating-row1,
+.rating-row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.rating-row1 img {
+  border-radius: 50%;
+  width: 65px;
+  height: auto;
+}
+
+.rating-row1 h4 {
+  color: #c271ff;
+  margin-left: 5%;
+}
+
+.rating-row2 p {
+  margin-left: 30%;
+  color: #c271ff;
+}
+
+/* membership */
+
+#membership {
+  background-color: #071629;
+  margin: -0.5rem;
+  color: #fff;
+  padding-bottom: 5%;
+  text-align: center;
+}
+.main-h2 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  text-align: center;
+}
+#membership b {
+  color: #c271ff;
+}
+.membership-row {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.membership-div p {
+  width: 80%;
+  margin: auto;
+}
+#membership button {
+  background-color: #c271ff;
+  color: #fff;
+  width: 200px;
+  padding: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  margin-top: 5%;
+}
+#membership button:hover {
+  background-color: #8e4dc0;
+}
+
+/* FAQ */
+
+#FAQ {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 7%;
+}
+#FAQ h1 {
+  color: #071629;
+  font-size: 50px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.faq-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.faq-col {
+  margin-left: 10%;
+}
+
+.faq-col p {
+  color: #898686c0;
+}
+
+/* Footer */
+
+footer {
+  padding-top: 5%;
+  background-color: #071629;
+  height: 210px;
+  margin: -0.5rem;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 70%;
+}
+
+.footer-col1 {
+  display: inline;
+  margin: 30px;
+}
+.footer-col1 a {
+  row-gap: unset;
+}
+.footer-end {
+  text-align: center;
+  color: #898686c0;
+}
